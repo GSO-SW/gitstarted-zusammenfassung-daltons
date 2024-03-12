@@ -30,3 +30,8 @@ Es ist wie ein Blick auf die Aktualisierungen, die auf dem Server gespeichert si
 pull
 "Pull" in Git ist ein Befehl, der deine lokalen Änderungen mit den neuesten Änderungen aus einem entfernten Repository aktualisiert. 
 Es ist wie das Aktualisieren deiner Arbeitskopie, um sicherzustellen, dass du die aktuellste Version deines Codes hast.
+
+.gitignore Datei	
+Die .gitignore-Datei sagt Git, welche Dateien und Ordner ignoriert werden sollen, damit sie nicht verfolgt oder ins Repository aufgenommen werden. 
+Das ist praktisch für temporäre Dateien, Logdateien oder sensible Informationen. Man erstellt eine Datei namens ".gitignore" im Repository und listet 
+darin Dateien oder Muster auf, die ignoriert werden sollen. Das hält den Versionsverlauf sauber und verhindert, dass unerwünschte Dateien im Repository landen.
