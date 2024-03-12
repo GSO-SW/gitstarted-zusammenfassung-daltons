@@ -16,3 +16,9 @@ Checkout:
 Mit dem Befehl git checkout wird zwischen zwei Branches gewechselt, die mit git Branch erstellt wurden.
 Wenn in Git ein checkout ausgeführt wird, werden die Dateien im Workingtree mit den in dem betroffenen Branch gespeicherte Versionen Aktualisiert und Git speichert alle neuen Commits in dem ausgecheckten Branch.
 Es wird also im Grunde ausgewählt, zu welchem Git-Branch gewechselt wird, um an der Entwicklungslinie weiter zu arbeiten.
+
+Head:
+In Git ist ein Head ein Zeiger der auf einen bestimmten commit in der aktuellen Versionsgeschichte eines Projekts zeigt.
+Es zeigt an, an welchem Punkt man sich in einem Projekt befindet.
+Der Head kann auf den letzten Commit eines Branches oder auf ein Commit zeigen.
+Der Head ändert sich, wenn neue Commits erstellt werden oder wenn zwischen Branches gewechselt werden, und hilft dabei, den aktuellen Zustand eines Codes zu verfolgen.
