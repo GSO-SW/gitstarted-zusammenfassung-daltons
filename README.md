@@ -11,3 +11,8 @@ Git Add hat aber keine Auswirkungen auf das Repository, Änderungen werden erst 
 
 Commit:
 Mit dem Befehl git commit wird eine Versionsgeschichte der aktuellen Projektänderungen erstellt. Committete Snapshots werden von Git nur auf ausdrücklichen Anweisung hin verändert, da sie als „sichere“ Versionen eines Projekts betrachtet werden. Um Änderungen, die in einem Commit gespeichert werden sollen, in das Projekt zu befördern oder zu stagen, verwendet man den Befehl git add, bevor git commit ausgeführt wird. Die beiden Git-Befehle git commit und git add sind die am weitesten verbreiteten.
+
+Checkout:
+Mit dem Befehl git checkout wird zwischen zwei Branches gewechselt, die mit git Branch erstellt wurden.
+Wenn in Git ein checkout ausgeführt wird, werden die Dateien im Workingtree mit den in dem betroffenen Branch gespeicherte Versionen Aktualisiert und Git speichert alle neuen Commits in dem ausgecheckten Branch.
+Es wird also im Grunde ausgewählt, zu welchem Git-Branch gewechselt wird, um an der Entwicklungslinie weiter zu arbeiten.
