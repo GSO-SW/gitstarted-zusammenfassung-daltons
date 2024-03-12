@@ -22,3 +22,9 @@ In Git ist ein Head ein Zeiger der auf einen bestimmten commit in der aktuellen 
 Es zeigt an, an welchem Punkt man sich in einem Projekt befindet.
 Der Head kann auf den letzten Commit eines Branches oder auf ein Commit zeigen.
 Der Head ändert sich, wenn neue Commits erstellt werden oder wenn zwischen Branches gewechselt werden, und hilft dabei, den aktuellen Zustand eines Codes zu verfolgen.
+
+Clone:
+Der Befehl git Clone dient dazu, ein vorhandenes Repository als Ziel festzulegen und einen Klon oder eine Kopie des Ziel-Repositorys zu erstellen.
+Wenn ein Repository auf GitHub erstellt wird, liegt es als Remote-Repository vor. 
+Das Repository kann geklont, um eine lokale Kopie auf deinem Computer zu erstellen, und die beiden Speicherorte synchronisieren.
+Git Clone ermöglicht also die Zusammenarbeit an einem Projekt in dem das repository von einem anderen Nutzer geklont werden kann. 
