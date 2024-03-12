@@ -22,3 +22,7 @@ des Repositorys erhalten bleibt.
 push
 "Push" in Git bedeutet, deine lokalen Änderungen auf eine Plattform wie GitHub hochzuladen, damit andere darauf zugreifen können. Das ist wichtig, 
 damit alle im Team die aktuellen Updates sehen und daran arbeiten können.
+
+fetch
+ "Fetch" ist ein Git-Befehl, mit dem du die neuesten Änderungen von einem entfernten Repository herunterladen kannst, ohne sie auf deinem lokalen Branch zu fusionieren. 
+Es ist wie ein Blick auf die Aktualisierungen, die auf dem Server gespeichert sind, ohne deine eigenen Änderungen zu beeinflussen.
