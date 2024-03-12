@@ -9,3 +9,7 @@ Die Staging Area ist ein Zwischenspeicher, vor dem committen wo man seine commit
 Repository
 
 Im Repository werden alle Dateien und Versionen von einem Projekt gespeichert die im verlauf eines Projektes erstellt wurden. Dabei besteht die Möglichkeit den verlauf nachzuvollziehen und auf ältere Versionen zurück zu gehen.
+
+Remote Repository
+
+Das Remote Repository ist genau so wie ein Repository, nur das dies nicht auf dem Computer des Nutzers sondern auf einem Server liegt, und die Möglichkeit besteht, das auf dies von mehreren Personen gleichzeitig zugegriffen werden kann. Es kann außerdem als eine Art backup benutzt werden. 
