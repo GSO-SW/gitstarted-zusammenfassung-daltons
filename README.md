@@ -10,3 +10,9 @@ Man befindet sich im detached Head wenn man einen Commit auscheckt, der keinen B
 
 Schwebender Commit:
 Ein Schwebender Commit entsteht bei einem Merging-Konflikt. Man erkennt ihn an dem (branchName| MERGING). Es bedeutet, dass es ein Problem beim Mergen gibt und das mergen nicht vollendet werden kann.
+
+Versionsverwaltungssysteme:
+Versionsverwaltungssysteme helfen im Verlauf von Projekten den Überblick zu behalten, indem sie die Historie des Projektes anzeigen können. Damit auch was der neuste stand ist.
+	1. Lokale Versionsverwaltungssysteme sind Systeme, die nur auf dem eigenen Rechner sind. Nachteil davon ist, dass wenn der eigene Rechner ausfällt ist alles weg.
+	2. Zentrale Versionsverwaltungssysteme haben einen zentralen Server auf dem das Repository liegt. Mehrere Clients können auf den letzten Zustand zugreifen, das ermöglicht Zusammenarbeit. Allerdings gibt es immer noch das Problem, fällt der Server aus ist die gesamte Historie weg.
+	3. Bei Dezentrale Versionsverwaltungssysteme wird das gesamte Repository auf den lokalen Rechner   kopiert. Das heißt ist der Server oder einer der Rechner beschädigt, so kann das Repository einfach wieder gecloned werden. Es geht also nicht einfach verlohren nur weil etwas kaputt geht. 
