@@ -28,3 +28,8 @@ Der Befehl git Clone dient dazu, ein vorhandenes Repository als Ziel festzulegen
 Wenn ein Repository auf GitHub erstellt wird, liegt es als Remote-Repository vor. 
 Das Repository kann geklont, um eine lokale Kopie auf deinem Computer zu erstellen, und die beiden Speicherorte synchronisieren.
 Git Clone ermöglicht also die Zusammenarbeit an einem Projekt in dem das repository von einem anderen Nutzer geklont werden kann. 
+
+Status (Workingtree & Staging-area):
+Der Befehlt git Status gibt den Status von dem Workingtree und der Staging-area an.
+So kann man sehen, welche Änderungen sich in  der Staging-area befinden, welche sich nicht in der Staging-area befinden und welche Dateien nicht von git verfolgt werden. 
+Git Status zeigt keine Informationen bezüglich des committeten Projektverlauf an.
