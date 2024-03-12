@@ -7,3 +7,6 @@ Mit git merge -abrot kann man schwebende Commits abrechen. Dadurch wird der Work
 
 Detached Head:
 Man befindet sich im detached Head wenn man einen Commit auscheckt, der keinen Branch hat. Man checkt also z.B. C2 aus. Dann zeigt der Head auf C2 ohne einen Branch "dazwischen", würde man jetzt committen, hätte dieser Commit keine Historie. Es wäre also sehr schwer ihn wieder zu finden. Um dies zu verhindern, erstellt man erst einen neuen Branch bevor man committet.
+
+Schwebender Commit:
+Ein Schwebender Commit entsteht bei einem Merging-Konflikt. Man erkennt ihn an dem (branchName| MERGING). Es bedeutet, dass es ein Problem beim Mergen gibt und das mergen nicht vollendet werden kann.
