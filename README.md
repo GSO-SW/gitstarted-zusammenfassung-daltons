@@ -19,3 +19,6 @@ Versionsverwaltungssysteme helfen im Verlauf von Projekten den Überblick zu beh
 
 --set-upstream:
 Mit dem Anhang --set-upstream erstellt man, beim ersten pushen von einem lokalen Branch, einen Branch auf dem Remote Repository der dem Lokalen Branch entspricht.
+
+git cherry pick:
+Mit Hilfe git cherry pick kann man eine Änderung eines bestimmten Commits "pflücken". Man überträgt nicht die gesamte Historie sondern nur die Änderung.
