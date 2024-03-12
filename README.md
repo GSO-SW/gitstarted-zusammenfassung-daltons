@@ -18,3 +18,7 @@ Der Befehl git revert ermöglicht es dir, einzelne Commits in einem Git-Reposito
 indem du die Kennung des Commits angibst, den du rückgängig machen möchtest. Git erstellt dann automatisch einen neuen Commit, der die Änderungen dieses 
 Commits widerspiegelt. Das ist nützlich, wenn du bestimmte Fehler beheben oder unerwünschte Änderungen entfernen möchtest, während der bisherige Verlauf 
 des Repositorys erhalten bleibt.
+
+push
+"Push" in Git bedeutet, deine lokalen Änderungen auf eine Plattform wie GitHub hochzuladen, damit andere darauf zugreifen können. Das ist wichtig, 
+damit alle im Team die aktuellen Updates sehen und daran arbeiten können.
