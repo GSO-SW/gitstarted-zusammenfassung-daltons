@@ -5,3 +5,7 @@ Der Working tree in git ist der Bereich wo die Version deines Projektes liegt, a
 Staging area
 
 Die Staging Area ist ein Zwischenspeicher, vor dem committen wo man seine commits vorbereiten kann. Man kann Dateien mit git add hinzufügen und mit git commit in das Repository überführen. Dabei kann man durch die Staging area auch nur bestimmte Dateien in hinzufügen und nicht alle Änderungen im Working tree erfassen.  
+
+Repository
+
+Im Repository werden alle Dateien und Versionen von einem Projekt gespeichert die im verlauf eines Projektes erstellt wurden. Dabei besteht die Möglichkeit den verlauf nachzuvollziehen und auf ältere Versionen zurück zu gehen.
