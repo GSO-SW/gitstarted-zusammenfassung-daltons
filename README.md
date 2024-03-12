@@ -33,3 +33,7 @@ Status (Workingtree & Staging-area):
 Der Befehlt git Status gibt den Status von dem Workingtree und der Staging-area an.
 So kann man sehen, welche Änderungen sich in  der Staging-area befinden, welche sich nicht in der Staging-area befinden und welche Dateien nicht von git verfolgt werden. 
 Git Status zeigt keine Informationen bezüglich des committeten Projektverlauf an.
+
+Log (Repository):
+Der Befehl git log dient dazu die Commit Historie eines Projekt anzeigen zu lassen.
+Es zeigt eine Liste der Commits an, die in einem Repository gemacht wurde, zusammen mit daten des commits wie Datum und commit Nachricht.
