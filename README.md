@@ -12,3 +12,9 @@ rebase
 "Rebase" in Git ist eine Methode, um die Änderungen aus einem Branch auf einen anderen anzuwenden, indem du den Zweig an einen neuen Ausgangspunkt verschiebst. 
 Es ist wie das Umstellen von Büchern in einem Regal, um eine klare und lineare Geschichte zu erhalten. Dadurch kannst du deine Änderungen auf dem aktuellsten 
 Stand halten und einen sauberen Verlauf deiner Commits beibehalten.
+
+revert
+Der Befehl git revert ermöglicht es dir, einzelne Commits in einem Git-Repository rückgängig zu machen, ohne den gesamten Verlauf zu ändern. Du kannst ihn verwenden, 
+indem du die Kennung des Commits angibst, den du rückgängig machen möchtest. Git erstellt dann automatisch einen neuen Commit, der die Änderungen dieses 
+Commits widerspiegelt. Das ist nützlich, wenn du bestimmte Fehler beheben oder unerwünschte Änderungen entfernen möchtest, während der bisherige Verlauf 
+des Repositorys erhalten bleibt.
