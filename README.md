@@ -16,3 +16,6 @@ Versionsverwaltungssysteme helfen im Verlauf von Projekten den Überblick zu beh
 	1. Lokale Versionsverwaltungssysteme sind Systeme, die nur auf dem eigenen Rechner sind. Nachteil davon ist, dass wenn der eigene Rechner ausfällt ist alles weg.
 	2. Zentrale Versionsverwaltungssysteme haben einen zentralen Server auf dem das Repository liegt. Mehrere Clients können auf den letzten Zustand zugreifen, das ermöglicht Zusammenarbeit. Allerdings gibt es immer noch das Problem, fällt der Server aus ist die gesamte Historie weg.
 	3. Bei Dezentrale Versionsverwaltungssysteme wird das gesamte Repository auf den lokalen Rechner   kopiert. Das heißt ist der Server oder einer der Rechner beschädigt, so kann das Repository einfach wieder gecloned werden. Es geht also nicht einfach verlohren nur weil etwas kaputt geht. 
+
+--set-upstream:
+Mit dem Anhang --set-upstream erstellt man, beim ersten pushen von einem lokalen Branch, einen Branch auf dem Remote Repository der dem Lokalen Branch entspricht.
