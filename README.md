@@ -35,7 +35,7 @@ Funktionen oder Korrekturen zusammenführen kannst, um einen konsolidierten Code
 Es ist wie das Umstellen von Büchern in einem Regal, um eine klare und lineare Geschichte zu erhalten. Dadurch kannst du deine Änderungen auf dem aktuellsten 
 Stand halten und einen sauberen Verlauf deiner Commits beibehalten.
 
-<u><i>git cherry pick</i></u>:
+<u><i>git cherry pick:</i></u>
 Mit Hilfe git cherry pick kann man eine Änderung eines bestimmten Commits "pflücken". Man überträgt nicht die gesamte Historie sondern nur die Änderung.
 
 <u><i>revert:</i></u>
@@ -43,6 +43,12 @@ Der Befehl git revert ermöglicht es dir, einzelne Commits in einem Git-Reposito
 indem du die Kennung des Commits angibst, den du rückgängig machen möchtest. Git erstellt dann automatisch einen neuen Commit, der die Änderungen dieses 
 Commits widerspiegelt. Das ist nützlich, wenn du bestimmte Fehler beheben oder unerwünschte Änderungen entfernen möchtest, während der bisherige Verlauf 
 des Repositorys erhalten bleibt.
+
+<u><i>reset:</i></u>
+Git Reset wird verwendet um den Zustand von Working tree und Staging area zu verändern. Dabei gibt es drei Variationen Reset hard Mixed und soft.<br>
+1. --hard Bei git Reset --hard wird alles im Working tree und der Staging area verworfen und es wird auf den ausgewählten commit zurück gegangen, dabei werden alle commits die nach dem ausgewählten gemacht worden gelöscht.<br>
+2. --mixed Bei Git Reset --mixed werden alle Änderungen in der Staging area zurück gesetzt, Es werden jedoch keine änderungen am Working tree vorgenommen. Im Repository werden außerdem alle commits nach dem angegebenen gelöscht. Git reset --mixed ist außerdem der Standard und wird verwendet wenn nichts angegeben wird.<br>
+3. --soft Bei Git Reset --soft werden alle Änderungen bei behalten in der Staging area so wie im Working tree. Es wird jegendlich der HEAD auf den ausgewählten commit verschoben, wodurch sich die Historie eines Branches ändern lässt ohne den Working tree zu beinflüssen.
 
 <u><i>status (Workingtree & Staging-area):</i></u>
 Der Befehlt git Status gibt den Status von dem Workingtree und der Staging-area an.
@@ -90,6 +96,17 @@ Versionsverwaltungssysteme helfen im Verlauf von Projekten den Überblick zu beh
 	1. Lokale Versionsverwaltungssysteme sind Systeme, die nur auf dem eigenen Rechner sind. Nachteil davon ist, dass wenn der eigene Rechner ausfällt ist alles weg.<br>
 	2. Zentrale Versionsverwaltungssysteme haben einen zentralen Server auf dem das Repository liegt. Mehrere Clients können auf den letzten Zustand zugreifen, das ermöglicht Zusammenarbeit. Allerdings gibt es immer noch das Problem, fällt der Server aus ist die gesamte Historie weg.<br>
 	3. Bei Dezentrale Versionsverwaltungssysteme wird das gesamte Repository auf den lokalen Rechner   kopiert. Das heißt ist der Server oder einer der Rechner beschädigt, so kann das Repository einfach wieder gecloned werden. Es geht also nicht einfach verlohren nur weil etwas kaputt geht. 
+
+<i><u>Working tree:</i></u>
+Der Working tree in git ist der Bereich wo die Version deines Projektes liegt, and der du gerade Arbeitest und welcher im Datei Explorer zu sehen ist. Man kann Dateien aus dem Workingtree der Staging area mit git add hinzufügen.
+
+<i><u>Staging area:</i></u>
+Die Staging Area ist ein Zwischenspeicher, vor dem committen wo man seine commits vorbereiten kann. Man kann Dateien mit git add hinzufügen und mit git commit in das Repository überführen. Dabei kann man durch die Staging area auch nur bestimmte Dateien in hinzufügen und nicht alle Änderungen im Working tree erfassen.
+
+<i><u>Repository:</i></u>
+Im Repository werden alle Dateien und Versionen von einem Projekt gespeichert die im verlauf eines Projektes erstellt wurden. Dabei besteht die Möglichkeit den verlauf nachzuvollziehen und auf ältere Versionen zurück zu gehen.
+Remote Repository
+Das Remote Repository ist genau so wie ein Repository, nur das dies nicht auf dem Computer des Nutzers sondern auf einem Server liegt, und die Möglichkeit besteht, das auf dies von mehreren Personen gleichzeitig zugegriffen werden kann. Es kann außerdem als eine Art backup benutzt werden.
 
 <u><i>Head:</i></u>
 In Git ist ein Head ein Zeiger der auf einen bestimmten commit in der aktuellen Versionsgeschichte eines Projekts zeigt.
