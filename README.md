@@ -124,3 +124,4 @@ Ein Schwebender Commit entsteht bei einem Merging-Konflikt. Man erkennt ihn an d
 Die .gitignore-Datei sagt Git, welche Dateien und Ordner ignoriert werden sollen, damit sie nicht verfolgt oder ins Repository aufgenommen werden. 
 Das ist praktisch für temporäre Dateien, Logdateien oder sensible Informationen. Man erstellt eine Datei namens ".gitignore" im Repository und listet 
 darin Dateien oder Muster auf, die ignoriert werden sollen. Das hält den Versionsverlauf sauber und verhindert, dass unerwünschte Dateien im Repository landen.
+
